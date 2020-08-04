@@ -1,6 +1,6 @@
 {
   "name": "lbnogavalmp.angular",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "private": true,
   "dependencies": {
     "rxjs": "6.5.5",
@@ -20,9 +20,8 @@
   },
   "scripts": {
     "ng": "ng",
-    "dev": "node server.js",
-    "start": "NODE_ENV=production node server.js",
-    "build": "next build",
+    "start": "ng serve",
+    "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
